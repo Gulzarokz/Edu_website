@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>University_website</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <section class="header">
-        <nav >
+        <nav>
             <a href="index.html"><img src="./pictures/logo2.jpg" alt="This is our logo"></a>
-            <div class="nav-links">
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
                 <ul>
                     <li>Home</li>
                     <li>About</li>
@@ -21,17 +28,189 @@
                     <li>Blog</li>
                     <li>Contact</li>
                 </ul>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+
             </div>
-            
+
+
         </nav>
 
         <div class="text-box">
             <h1>World biggest University_website</h1>
-            <p>Lorem ipsum dolor sit labore dolorem eveniet, officiis quo nostrum iste beatae veritatis sunt atque assumenda id consequatur provident optio? Minima?</p>
+            <p>Lorem ipsum dolor sit labore dolorem eveniet, officiis quo nostrum iste beatae veritatis sunt atque
+                assumenda id consequatur provident optio? Minima?</p>
             <a href="" class="hero-btn">Visit Us To know More</a>
         </div>
 
     </section>
+
+
+    <section class="Course">
+        <h3>Courses we offers</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, nemo?</p>
+        <div class="row">
+            <div class="Course-col">
+                <h1>Intermdiate</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, sint cum? Saepe enim explicabo,
+                    praesentium amet incidunt odit ut quo quae nobis voluptatum ex consequuntur vitae exercitationem
+                    tempore
+                    iste dolore quam quasi? Labore corrupti dolorum a, consequuntur quas sequi iure?</p>
+            </div>
+            <div class="Course-col">
+                <h1>Degree</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, sint cum? Saepe enim explicabo,
+                    praesentium amet incidunt odit ut quo quae nobis voluptatum ex consequuntur vitae exercitationem
+                    tempore
+                    iste dolore quam quasi? Labore corrupti dolorum a, consequuntur quas sequi iure?</p>
+            </div>
+            <div class="Course-col">
+                <h1>Graduation</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, sint cum? Saepe enim explicabo,
+                    praesentium amet incidunt odit ut quo quae nobis voluptatum ex consequuntur vitae exercitationem
+                    tempore
+                    iste dolore quam quasi? Labore corrupti dolorum a, consequuntur quas sequi iure?</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Campus section Start -->
+    <Section class="Campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, iusto?</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="./pictures/landon.jpg" >
+                <div class="title">
+                    <h3>Landon</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./pictures/newyork.jpg" >
+                <div class="title">
+                    <h3>Newyork</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./pictures/washington.jpg" >
+                <div class="title">
+                    <h3>washington</h3>
+                </div>
+            </div>
+        </div>
+
+    </Section>
+
+    <!-- Campus section End -->
+
+    <!-- Facilities section start -->
+
+    <section class="facilities">
+        <h3>Our Facilities</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, obcaecati.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./pictures/laibrary.jpg" alt="">
+                <h2>World calss laibrary</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus porro iste vero perspiciatis laboriosam!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./pictures/playground.jpg" alt="">
+                <h2>Largest Play Ground</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus porro iste vero perspiciatis laboriosam!</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./pictures/cafetaria.jpg" alt="">
+                <h2>Testy and healthy food</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus porro iste vero perspiciatis laboriosam!</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Facilities section End -->
+
+    <section class="textimonials">
+        <h1>What Our students Says</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, nisi.</p>
+
+        <div class="row">
+            <div class="testimonials-col">
+                <img src="./pictures/users1.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti neque velit at sequi voluptates ex quo repellat, aliquam architecto officiis rem molestias, quibusdam animi nam?</p>
+                    <h3>Ronalado</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+
+            <div class="testimonials-col">
+                <img src="./pictures/user2.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti neque velit at sequi voluptates ex quo repellat, aliquam architecto officiis rem molestias, quibusdam animi nam?</p>
+                    <h3>Emma</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+
+    <!-- Call To Action start -->
+    <section class="cta">
     
+        <h1>Enroll For Various Online Courses Any where from the world</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+    <!-- Call To Action End -->
+
+
+    <!-- Footer section start -->
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores impedit laudantium eos perferendis,<br>animi eaque nesciunt consectetur reprehenderit! Blanditiis rem amet, in modi esse voluptate.</p>
+            <div class="icons">
+                <i class="fa fa-facebook" ></i>
+                <i class="fa fa-twitter" ></i>
+                <i class="fa fa-instagram" ></i>
+                <i class="fa fa-linkedin" ></i>
+                
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> and Provide facilities</p>
+     </section>
+
+
+    <!-- Footer section End -->
+
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("nav-links")
+
+        function showMenu() {
+            console.log("clicked");
+
+            navLinks.style.right = "0";
+        };
+
+
+        function hideMenu() {
+            navLinks.style.right = "0px"
+        }
+    </script>
+
 </body>
+
 </html>
