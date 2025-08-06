@@ -29,8 +29,12 @@ nav img {
   display: flex;
   gap: 30px;
 }
-.nav-links ul li {
+.nav-links ul li{
   list-style: none;
+}
+.nav-links ul li a{
+  color: white;
+}
 }
 .nav-links ul li {
   color: #fff;
@@ -43,7 +47,6 @@ nav img {
   height: 2px;
   top: 0;
   bottom: 0;
-  background: blue;
   display: block;
   margin: auto;
   transition: 0.3s linear;
@@ -90,38 +93,7 @@ nav img {
 /* after that */
 
 
-.nav-links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column; /* vertical by default */
-  gap: 15px;
-  align-items: flex-start;
-}
-
-.nav-links li {
-  font-size: 18px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 8px 12px;
-  transition: background 0.3s;
-  cursor: pointer;
-}
-
-.nav-links li:hover {
-  background: #f0f0f0;
-  border-radius: 5px;
-}
-
-.nav-links i {
-  min-width: 20px;
-}
-.nav-links .fa{
-    display: block;
-  }
-  
+   
 
 
 
@@ -513,6 +485,40 @@ p{
     font-size: 24px;
   }
 }
+/* Contact us page */
+.location{
+  width: 80%;
+  margin: auto;
+  padding: 80px 0;
+ 
+}
+.location iframe{
+  width: 100%;
+
+}
+
+.Contact-us{
+  flex-basis: 48%;
+  width: 80%;
+   margin: auto;
+  }
+.contact-col{
+  margin-bottom: 30px;
+}
+}
+.contact-col div{
+ 
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+
+} 
+.contact-col form {
+  border: 1px solid #d4c2c2c6;
+ 
+  margin: 10px 0;
+}
+
 
 /* blog page content end */
 
